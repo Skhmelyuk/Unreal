@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unreal</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo" href="#"><img src="image/logo.svg" alt="" /></a>
+          <div class="header__menu-block">
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item active"><a class="menu__link _icon-home" href="">Головна</a></li>
+                <li class="menu__item"><a class="menu__link _icon-news" href="">Новини</a></li>
+                <li class="menu__item"><a class="menu__link _icon-forum" href="">Форум</a></li>
+              </ul>
+            </nav>
+            <ul class="header__social social">
+              <li class="social__item"><a class="social__link _icon-youtube" href="#"></a></li>
+              <li class="social__item"><a class="social__link _icon-tiktok" href="#"></a></li>
+              <li class="social__item"><a class="social__link _icon-discord" href="#"></a></li>
+            </ul>
+          </div>
+          <button class="header__button _icon-wallet">Донат</button>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Modal window -->
+      <div class="modal">
+        <h3 class="modal__title">Donate</h3>
+        <form class="modal__form">
+          <div class="modal__input input-profile _icon-profile">
+            <input id="profile" type="text" placeholder=" " />
+            <label for="profile">Nick Name</label>
+          </div>
+          <div class="modal__input input-message _icon-message">
+            <input id="email" type="text" placeholder=" " />
+            <label for="email">Email</label>
+          </div>
+          <p class="modal__count">
+            <span>На рахунку:</span>
+            <span>20<img src="image/icons/Ucoin.svg" alt="ucoin" /></span>
+          </p>
+          <div class="modal__input input-payment">
+            <input id="pay" type="text" placeholder=" " />
+            <label for="pay">Сума поповнення</label>
+          </div>
+          <button class="modal__btn">Перейти до сплати</button>
+        </form>
+      </div>
+
+      <main class="page">
+        <section class="page__casino casino">
+          <div class="casino__container">
+            <div class="casino__description">
+              <h1 class="casino__title">
+                Розпочніть <br />
+                Підкорювати <br />
+                unreal - Los-santos
+              </h1>
+              <div class="casino__buttons">
+                <button class="casino__btn casino__btn--yellow _icon-arrow-right">Розпочати гру</button>
+                <button class="casino__btn casino__btn--grey _icon-promo-video">Промо-відео</button>
+              </div>
+            </div>
+            <div class="casino__image">
+              <img src="image/gta_person.png" alt="gta_person" />
+            </div>
+          </div>
+        </section>
+        <section class="page__game game">
+          <div class="game__container">
+            <h2 class="game__title title">
+              <span class="game__title--contur title--contur">Як розпочати гру?</span>
+              <span>Як розпочати гру?</span>
+            </h2>
+            <div class="game__cards">
+              <div class="card-game">
+                <h3 class="card-game__title">
+                  <span class="card-game__namber">1</span>
+                  <span>Крок</span>
+                </h3>
+                <p class="card-game__desc">
+                  Купити та встановити ліцензійну GTA 5 Якщо гра куплено, то наступний крок.
+                </p>
+                <button class="card-game__btn card-game__btn--grey">Epic game store</button>
+                <button class="card-game__btn card-game__btn--black">Steam store</button>
+                <button class="card-game__btn card-game__btn--yellow">ROCKSTAR STORE</button>
+              </div>
+              <div class="card-game">
+                <h3 class="card-game__title">
+                  <span class="card-game__namber">2</span>
+                  <span>Крок</span>
+                </h3>
+                <p class="card-game__desc">
+                  Купити та встановити ліцензійну GTA 5 Якщо гра куплено, то наступний крок.
+                </p>
+                <div class="card-game__image">
+                  <img src="image/rage-multiplayer.png" alt="" />
+                </div>
+                <button class="card-game__btn card-game__btn--black">Rage multiplayer</button>
+              </div>
+              <div class="card-game">
+                <h3 class="card-game__title">
+                  <span class="card-game__namber">3</span>
+                  <span>Крок</span>
+                </h3>
+                <p class="card-game__desc">
+                  Купити та встановити ліцензійну GTA 5 Якщо гра куплено, то наступний крок.
+                </p>
+                <button class="card-game__btn card-game__btn--yellow">Копіювати ip адресу</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__last-news last-news">
+          <div class="last-news__container">
+            <h2 class="last-news__title title">
+              <span class="last-news--contur title--contur">Остані новини</span>
+              <span>Остані новини</span>
+            </h2>
+            <div class="last-news__page">
+              <div class="last-news__full news-full">
+                <div class="news-full__image">
+                  <img src="image/news-big-image.png" alt="news" />
+                </div>
+                <div class="news-full__body">
+                  <h3 class="news-full__title">Відкриття сервера Unreal RolePlay</h3>
+                  <p class="news-full__text">
+                    Lorem ipsum dolor sit amet consectetur. Quisque nec dignissim tempor vulputate pharetra tincidunt
+                    metus at neque. Tincidunt et diam ullamcorper dignissim. Est dui eu purus odio nisi in elit nunc.
+                    Aliquet ornare pellentesque commodo amet scelerisque enim imperdiet in. Sed nulla.
+                  </p>
+                  <p class="news-full__date _icon-alendar">20.06.2023</p>
+                </div>
+              </div>
+              <div class="last-news__short news-short">
+                <div class="news-short__card">
+                  <div class="news-short__image">
+                    <img src="image/news-small-image.png" alt="news" />
+                  </div>
+                  <div class="news-short__body">
+                    <h4 class="news-short__title">Відкриття сервера Unreal RolePlay</h4>
+                    <p class="news-short__date _icon-alendar">20.06.2023</p>
+                  </div>
+                </div>
+                <div class="news-short__card">
+                  <div class="news-short__image">
+                    <img src="image/news-small-image.png" alt="news" />
+                  </div>
+                  <div class="news-short__body">
+                    <h4 class="news-short__title">Відкриття сервера Unreal RolePlay</h4>
+                    <p class="news-short__date _icon-alendar">20.06.2023</p>
+                  </div>
+                </div>
+                <div class="news-short__card">
+                  <div class="news-short__image">
+                    <img src="image/news-small-image.png" alt="news" />
+                  </div>
+                  <div class="news-short__body">
+                    <h4 class="news-short__title">Відкриття сервера Unreal RolePlay</h4>
+                    <p class="news-short__date _icon-alendar">20.06.2023</p>
+                  </div>
+                </div>
+                <div class="news-short__card">
+                  <div class="news-short__image">
+                    <img src="image/news-small-image.png" alt="news" />
+                  </div>
+                  <div class="news-short__body">
+                    <h4 class="news-short__title">Відкриття сервера Unreal RolePlay</h4>
+                    <p class="news-short__date _icon-alendar">20.06.2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__for-us for-us">
+          <div class="for-us__container">
+            <h2 class="for-us__title title">
+              <span class="for-us--contur title--contur">Доєднуйся до нас!</span>
+              <span>Доєднуйся до нас!</span>
+            </h2>
+            <div class="for-us__cards">
+              <div class="card-for-us">
+                <div class="card-for-us__header">
+                  <div class="card-for-us__icon _icon-discord"></div>
+                  <div class="card-for-us__title">
+                    <h3>Наш діскорд канал</h3>
+                    <h4>Вже слідкують: <span>8052</span></h4>
+                  </div>
+                </div>
+                <p class="card-for-us__desc">
+                  Офіційний Discord канал для спілкування гравців і також новини та бонуси
+                </p>
+                <button class="card-for-us__button">Доєднатися</button>
+              </div>
+              <div class="card-for-us">
+                <div class="card-for-us__header">
+                  <div class="card-for-us__icon _icon-youtube"></div>
+                  <div class="card-for-us__title">
+                    <h3>Наш youtube канал</h3>
+                    <h4>Вже слідкують: <span>8052</span></h4>
+                  </div>
+                </div>
+                <p class="card-for-us__desc">
+                  Офіційний Youtube канал для перегляду оновлень, отримання гарного настрою.
+                </p>
+                <button class="card-for-us__button">Підписатися</button>
+              </div>
+              <div class="card-for-us">
+                <div class="card-for-us__header">
+                  <div class="card-for-us__icon _icon-tiktok"></div>
+                  <div class="card-for-us__title">
+                    <h3>Наш tiktok</h3>
+                    <h4>Підписані: <span>8052</span></h4>
+                  </div>
+                </div>
+                <p class="card-for-us__desc">Офіційний Tiktok канал для отримання гарного настрою</p>
+                <button class="card-for-us__button">Підписатися</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__main">
+          <div class="footer__container">
+            <div class="footer__desc">
+              <img src="image/logo.svg" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit massa sit senectus. Elit mattis
+                eget enim lobortis.
+              </p>
+            </div>
+            <div class="footer__user">
+              <h5 class="footer__title">Для користувача</h5>
+              <ul class="footer__list">
+                <li><a href="#">Правила конфедеційності</a></li>
+                <li><a href="#">Користувацька згода</a></li>
+              </ul>
+            </div>
+            <div class="footer__payment">
+              <h5 class="footer__title">Оплата</h5>
+              <ul class="footer__list">
+                <li><a href="#">Правила оплати</a></li>
+              </ul>
+              <ul class="footer__list-payment">
+                <li>
+                  <a href="#"><img src="image/payment/visa.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="image/payment/mastercard.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="image/payment/googlepay.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="image/payment/applepay.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <h5 class="footer__title">Важлива інформація</h5>
+              <ul class="footer__list">
+                <li><a href="#">Форум</a></li>
+                <li><a href="#">Як розпочати гру</a></li>
+              </ul>
+            </div>
+            <div class="footer__contact">
+              <h5 class="footer__title">Контакти</h5>
+              <ul class="footer__list">
+                <li><a href="#">admin@unreal.com</a></li>
+              </ul>
+              <div class="footer__social">
+                <a href=""><p class="_icon-discord"></p></a>
+                <a href=""><p class="_icon-youtube"></p></a>
+                <a href=""><p class="_icon-tiktok"></p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+          <div class="copyright__container">
+            <p>Copyright 2022 (c)</p>
+            <p class="copyright__studia">
+              Розроблено дизайн студією:
+              <img src="image/icons/studia-dz.svg" alt="" />
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

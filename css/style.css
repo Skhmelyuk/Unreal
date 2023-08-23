@@ -763,7 +763,7 @@ body.lock-scroll {
 }
 
 .casino {
-  background: url("../../image/bg/back-casino.png") center/cover no-repeat;
+  background: url("../../image/back-casino.png") center/cover no-repeat;
 }
 .casino__container {
   display: grid;
@@ -991,7 +991,7 @@ body.lock-scroll {
 }
 
 .game {
-  background: var(--clr-black) url("../../image/bg/bg-for-game.png") left center no-repeat;
+  background: var(--clr-black) url("../../image/bg-for-game.png") left center no-repeat;
 }
 @supports (padding-top: clamp( 5rem , 3.8987566607rem  +  5.5062166963vw , 8.875rem )) {
   .game__container {
@@ -1159,7 +1159,7 @@ body.lock-scroll {
 }
 
 .last-news {
-  background: var(--clr-black) url("../../image/bg/bg-for-news.png") right center no-repeat;
+  background: var(--clr-black) url("../../image/bg-for-news.png") right center no-repeat;
 }
 @supports (padding-top: clamp( 5rem , 3.8987566607rem  +  5.5062166963vw , 8.875rem )) {
   .last-news__container {
